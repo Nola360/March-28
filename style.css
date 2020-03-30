@@ -45,6 +45,7 @@ ul {
   margin-top: 10px;
   border-radius: 5px;
   padding: 1px 5px 10px;
+  min-height: 20px;
 }
 
 ul li {
@@ -54,9 +55,11 @@ ul li {
   margin-top: 10px;
 }
 
-.button_container {
- 
+.fas.fa-times {
+ cursor: pointer;
 }
+
+
 
 .button {
   background: rgb(49, 163, 255);
