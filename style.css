@@ -49,7 +49,7 @@ h1 {
   text-align: center;
 }
 
-.input {
+#input {
   width: 100%;
   border-radius: 5px;
   border: 2px solid rgb(238, 238, 238);
@@ -58,9 +58,10 @@ h1 {
   padding: 10px 20px 10px 10px;
 }
 
-ul {
-  height: 100px;
+ol {
+  /* height: 100px; */
   overflow-y: scroll;
+  /* list-style: circle; */
 }
 
 
@@ -73,6 +74,10 @@ li {
   margin-top: 10px;
 }
 
+li.active {
+  display: none;
+}
+
 
 .fas.fa-times {
  cursor: pointer;
@@ -81,6 +86,8 @@ li {
 a {
   text-decoration: none;
   color: rgb(49, 163, 255);
+  display: flex;
+  justify-content: space-between;
 }
 
 a.active {
